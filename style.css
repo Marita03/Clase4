@@ -1,0 +1,72 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Recursive:wght@300..1000&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #ADD8E6;
+  font-family: Helvetica, Arial, sans-serif;
+}
+a{
+  color:#000000;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+
+a[href$=".pdf"]{ 
+  color: skyblue;
+ }
+
+a:hover{
+  color: #c55;
+  text-decoration: underline;
+  transition: all ease 1s;
+}
+a:hover:after{
+  content:"😍🔥";
+}
+
+h1{
+  font-size: calc(3rem + 5vw);
+}
+
+#bloque{
+  margin:5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255,.2);
+  border-radius: 1rem;
+  box-shadow: 0 0 5px white;
+}
+
+.xmas {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.ajuste{
+  font-size: 200%;
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(80% - 4rem);
+    padding: 2rem;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+/*
+canvas {
+  display: block;
+}
+*/
